@@ -9,7 +9,7 @@ This challenge for Artificial Intelligence Engineer Consists of 3 tasks.
 - Mission 3: Sending the URL of the task
 
 ## Demo link
-View demo <a href="http://35.154.53.33:8501/"><b>Here 💻</b></a>.
+View demo <a href="http://35.154.53.33:8501/"><b>Here!</b></a>.
 Or use this API endpoint  `http://35.154.53.33:8501/` to returns your predictions.
 #### Note
 Category : alcohol accidents --> 0
