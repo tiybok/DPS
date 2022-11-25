@@ -6,20 +6,6 @@ import numpy as np
 import pickle
 import streamlit as st
 from PIL import Image
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.ensemble import RandomForestRegressor
-
-from sklearn.metrics import r2_score
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import median_absolute_error
-
-import pickle
   
 # loading in the model to predict on the data
 pickle_in = open('model.pkl', 'rb')
