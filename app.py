@@ -53,7 +53,7 @@ def main():
     Accident_Type = st.selectbox("Accident_Type", ['0', '1','2'])
     Year = st.number_input("Year",2021,2030)
     #Month = st.text_input("Month", "Type Here :MM")
-    Month = st.number_input("Month", 0, 12)
+    Month = st.number_input("Month", 1, 12)
     result =""
       
     # the below line ensures that when the button called 'Predict' is clicked, 
