@@ -19,6 +19,7 @@ Category : alcohol accidents --> 0
 Accident_Type : all in all           --> 0 
                 injured and killed   --> 1 
                 with personal injury --> 2
+                
 The endpoint accepts a POST request with a JSON body like this:
 ```
 {
