@@ -24,7 +24,7 @@ The endpoint accepts a POST request with a JSON body like this:
 ```
 {
 "Category":0,
-"Accident_Type": "0",
+"Accident_Type": 0,
 "Year" : 2021,
 "Month" : 01
 }
