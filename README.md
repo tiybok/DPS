@@ -12,14 +12,18 @@ This challenge for Artificial Intelligence Engineer Consists of 3 tasks.
 View demo <a href="http://35.154.53.33:8501/"><b>Here 💻</b></a>.
 Or use this API endpoint  `http://35.154.53.33:8501/` to returns your predictions.
 #### Note
+Category : alcohol accidents --> 0
+           escape accidents  --> 1 
+           traffic accidents --> 2 
+           
+Accident_Type : all in all           --> 0 
+                injured and killed   --> 1 
+                with personal injury --> 2
 The endpoint accepts a POST request with a JSON body like this:
-Category : {alcohol accidents --> 0 , escape accidents -->1 ,traffic accidents --> 2 }
-Accident_Type : { all in all --> 0,  injured and killed --> 1, 'with personal injury' --> 2}
-
 ```
 {
 "Category":0,
-"Accident_Type": "0"
+"Accident_Type": "0",
 "Year" : 2021,
 "Month" : 01
 }
